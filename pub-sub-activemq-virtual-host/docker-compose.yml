@@ -1,0 +1,74 @@
+version: '3'
+services:
+  redisservice:
+      image: redis:alpine3.14
+      container_name: redisservice
+      restart: always
+      ports:
+        - 6379:6379
+      command: redis-server --appendonly yes
+
+  mqservice:
+    image: rmohr/activemq
+    container_name: mqservice
+    restart: always
+    ports:
+      - 5672:5672
+      - 61613:61613
+      - 61614:61614
+      - 61616:61616
+      - 8161:8161
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost:8161"]
+        interval: 10s
+        timeout: 10s
+        retries: 5
+
+  api_1:
+    hostname: api_1
+    container_name: api_1
+    build: .
+    depends_on:
+      mqservice:
+        condition: service_healthy
+
+    restart: always
+    environment:
+      - MQ_HOST=mqservice
+      - MQ_PORT=61613
+      - REDIS_HOST=redisservice
+      - REDIS_PORT=6379
+      - GROUP_ID=g-1
+
+  api_2:
+    hostname: api_2
+    container_name: api_2
+    build: .
+    depends_on:
+      mqservice:
+        condition: service_healthy
+
+    restart: always
+    environment:
+      - MQ_HOST=mqservice
+      - MQ_PORT=61613
+      - REDIS_HOST=redisservice
+      - REDIS_PORT=6379
+      - GROUP_ID=g-2
+
+  api_3:
+    hostname: api_3
+    container_name: api_3
+    build: .
+    depends_on:
+      mqservice:
+        condition: service_healthy
+
+    restart: always
+    environment:
+      - MQ_HOST=mqservice
+      - MQ_PORT=61613
+      - REDIS_HOST=redisservice
+      - REDIS_PORT=6379
+      - GROUP_ID=g-3
+      
