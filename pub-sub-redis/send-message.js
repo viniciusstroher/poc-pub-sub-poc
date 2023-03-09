@@ -35,7 +35,7 @@
 
   await client.connect();
 
-  for (let i = 0; i < 10000; i++) {
+  for (let i = 0; i < 1; i++) {
     await client.xAdd(
       'mystream',
       '*', // * = Let Redis generate a timestamp ID for this new entry.
