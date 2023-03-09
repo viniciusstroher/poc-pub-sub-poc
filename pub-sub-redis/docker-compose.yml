@@ -1,0 +1,37 @@
+version: '3'
+services:
+  redisservice:
+      image: redis:6.0.18-alpine
+      container_name: redisservice
+      restart: always
+      ports:
+        - 6383:6379
+      command: redis-server --appendonly yes
+
+  api_1:
+    hostname: api_1
+    container_name: api_1
+    build: .
+    restart: always
+    environment:
+      - REDIS_HOST=redisservice
+      - REDIS_PORT=6379
+
+  api_2:
+    hostname: api_2
+    container_name: api_2
+    build: .
+    restart: always
+    environment:
+      - REDIS_HOST=redisservice
+      - REDIS_PORT=6379
+
+  api_3:
+    hostname: api_3
+    container_name: api_3
+    build: .
+    restart: always
+    environment:
+      - REDIS_HOST=redisservice
+      - REDIS_PORT=6379
+      
