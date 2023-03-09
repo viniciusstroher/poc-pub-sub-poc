@@ -1,62 +1,39 @@
 (async() => {
-  const { createClient, commandOptions } = require('redis')
   const os = require("os")
   const hostName = os.hostname()
-  const client = createClient({
-    url: `redis://${process.env.REDIS_HOST || 'localhost'}:${process.env.REDIS_PORT || '6383'}`
-  })
-
+  
   const getDate = () => {
     return new Date().toISOString()
   }
-  const STREAM = process.env.STREAM || 'stream_app'
+
+  const TOPIC = process.env.STREAM || 'stream_app'
   const GROUP = process.env.GROUP || 'stream_consumer'
-  const CONSUMER = 'myconsumer' + (Math.random() * 20)
 
-  await client.connect()
+  const { Kafka } = require('kafkajs')
 
-  try {
-    await client.xGroupCreate(STREAM, GROUP, '0', {
-      MKSTREAM: true
-    })
-    console.log(`[${hostName}][${getDate()}] Created consumer group`)
-  } catch (e) {
-    console.log(`[${hostName}][${getDate()}] Consumer group already exists, skipped creation`)
-  }
+  const kafka = new Kafka({
+    clientId: 'my-app',
+    brokers: [`${process.env.KAFKA_HOST || 'localhost'}:${process.env.KAFKA_PORT || '29092'}`]
+  })
 
-  console.log(`[${hostName}][${getDate()}] Starting consumer ${CONSUMER}`)
+  const consumer = kafka.consumer({ groupId: GROUP })
 
-  while (true) {
-    try {
-      const response = await client.xReadGroup(
-        commandOptions({
-          isolated: true
-        }),
-        GROUP, 
-        CONSUMER, [
-          {
-            key: STREAM,
-            id: '>'
-          }
-        ], {
-          COUNT: 1,
-          BLOCK: 5000
-        }
-      )
+  await consumer.connect()
+  console.log(`[${hostName}][${getDate()}] connected`)
 
-      if (response) {
-        console.log(`[${hostName}][${getDate()}] - ${JSON.stringify(response)}`)
+  const topic = { topic: TOPIC, fromBeginning: true }
 
-        const entryId = response[0].messages[0].id
-        await client.xAck(STREAM, GROUP, entryId)
+  await consumer.subscribe(topic)
+  console.log(`[${hostName}][${getDate()}] subscribe ${JSON.stringify(topic)}`)
 
-        console.log(`[${hostName}][${getDate()}] Acknowledged processing of entry ${entryId}.`)
-      } else {
-        console.log(`[${hostName}][${getDate()}] No new stream entries`)
+  await consumer.run({
+    eachMessage: async ({ topic, partition, message }) => {
+      const data = {
+        partition,
+        offset: message.offset,
+        value: message.value.toString(),
       }
-    } catch (error) {
-      console.error(error)
+      console.log(`[${hostName}][${getDate()}] subscribe ${JSON.stringify(topic)} - ${JSON.stringify(data)}`)
     }
-  }
-  
+  })
 })()
