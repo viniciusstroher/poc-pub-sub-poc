@@ -33,7 +33,7 @@ const connectOptions = {
 const subscribeHeaders = {
     // 'destination': '/topic/VirtualTopic.Orders',
     // 'destination': `/queue/Consumer.A.VirtualTopic.Orders`,
-    'destination': `/queue/Consumer.${process.env.GROUP || 'A'}.VirtualTopic.Orders`,
+    'destination': `/queue/Consumer.${process.env.GROUP_ID || 'A'}.VirtualTopic.Orders`,
     'ack': 'client-individual',
     // 'selector': `_AMQ_GROUP_ID='${process.env.GROUP_ID || 'g-1'}'`
 }

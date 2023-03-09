@@ -22,10 +22,13 @@ stompit.connect(connectOptions, (error, client) => {
     console.log(`[${hostName}][${getDate()}] subscribed to topic`)
     
     const group = `g-1`
-
+    // da pra mandar so para a file do virtual topic (consumidor)
+    // se for pelo topic ele manda para cada consumidor
+    // para fazer escalar da pra criar varios consumidor e replicas de pod
+    
     const sendHeaders = {
-        // 'destination': '/topic/VirtualTopic.Orders',
-        'destination': '/queue/Consumer.A.VirtualTopic.Orders',
+        'destination': '/topic/VirtualTopic.Orders',
+        // 'destination': '/queue/Consumer.A.VirtualTopic.Orders',
         'content-type': 'text/plain',
         // '_AMQ_GROUP_ID': group
     }
