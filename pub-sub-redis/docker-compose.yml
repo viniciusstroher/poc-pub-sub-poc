@@ -16,6 +16,8 @@ services:
     environment:
       - REDIS_HOST=redisservice
       - REDIS_PORT=6379
+      - STREAM=stream_app
+      - GROUP=stream_consumer
 
   api_2:
     hostname: api_2
@@ -25,6 +27,8 @@ services:
     environment:
       - REDIS_HOST=redisservice
       - REDIS_PORT=6379
+      - STREAM=stream_app
+      - GROUP=stream_consumer
 
   api_3:
     hostname: api_3
@@ -34,4 +38,5 @@ services:
     environment:
       - REDIS_HOST=redisservice
       - REDIS_PORT=6379
-      
+      - STREAM=stream_app
+      - GROUP=stream_consumer2

@@ -1,66 +1,61 @@
 (async() => {
-  const { createClient, commandOptions } = require('redis');
-
+  const { createClient, commandOptions } = require('redis')
+  const os = require("os")
+  const hostName = os.hostname()
   const client = createClient({
     url: `redis://${process.env.REDIS_HOST || 'localhost'}:${process.env.REDIS_PORT || '6383'}`
-  });
+  })
 
-  const consumerName = 'myconsumer' + (Math.random() * 20)
+  const getDate = () => {
+    return new Date().toISOString()
+  }
+  const STREAM = process.env.STREAM || 'stream_app'
+  const GROUP = process.env.GROUP || 'stream_consumer'
+  const CONSUMER = 'myconsumer' + (Math.random() * 20)
 
-  await client.connect();
+  await client.connect()
 
-  // Create the consumer group (and stream) if needed...
   try {
-    // https://redis.io/commands/xgroup-create/
-    await client.xGroupCreate('mystream', 'myconsumergroup', '0', {
+    await client.xGroupCreate(STREAM, GROUP, '0', {
       MKSTREAM: true
-    });
-    console.log('Created consumer group.');
+    })
+    console.log(`[${hostName}][${getDate()}] Created consumer group`)
   } catch (e) {
-    console.log('Consumer group already exists, skipped creation.');
+    console.log(`[${hostName}][${getDate()}] Consumer group already exists, skipped creation`)
   }
 
-  console.log(`Starting consumer ${consumerName}.`);
+  console.log(`[${hostName}][${getDate()}] Starting consumer ${CONSUMER}`)
 
   while (true) {
     try {
-      // https://redis.io/commands/xreadgroup/
-      let response = await client.xReadGroup(
+      const response = await client.xReadGroup(
         commandOptions({
           isolated: true
         }),
-        'myconsumergroup', 
-        consumerName, [
-          // XREADGROUP can read from multiple streams, starting at a
-          // different ID for each...
+        GROUP, 
+        CONSUMER, [
           {
-            key: 'mystream',
-            id: '>' // Next entry ID that no consumer in this group has read
+            key: STREAM,
+            id: '>'
           }
         ], {
-          // Read 1 entry at a time, block for 5 seconds if there are none.
           COUNT: 1,
           BLOCK: 5000
         }
-      );
+      )
 
       if (response) {
-        console.log(JSON.stringify(response));
+        console.log(`[${hostName}][${getDate()}] - ${JSON.stringify(response)}`)
 
-        // Use XACK to acknowledge successful processing of this
-        // stream entry.
-        // https://redis.io/commands/xack/
-        const entryId = response[0].messages[0].id;
-        await client.xAck('mystream', 'myconsumergroup', entryId);
+        const entryId = response[0].messages[0].id
+        await client.xAck(STREAM, GROUP, entryId)
 
-        console.log(`Acknowledged processing of entry ${entryId}.`);
+        console.log(`[${hostName}][${getDate()}] Acknowledged processing of entry ${entryId}.`)
       } else {
-        // Response is null, we have read everything that is
-        // in the stream right now...
-        console.log('No new stream entries.');
+        console.log(`[${hostName}][${getDate()}] No new stream entries`)
       }
-    } catch (err) {
-      console.error(err);
+    } catch (error) {
+      console.error(error)
     }
   }
   
