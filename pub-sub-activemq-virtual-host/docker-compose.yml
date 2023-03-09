@@ -38,7 +38,7 @@ services:
       - MQ_PORT=61613
       - REDIS_HOST=redisservice
       - REDIS_PORT=6379
-      - GROUP_ID=g-1
+      - GROUP_ID=A
 
   api_2:
     hostname: api_2
@@ -54,7 +54,7 @@ services:
       - MQ_PORT=61613
       - REDIS_HOST=redisservice
       - REDIS_PORT=6379
-      - GROUP_ID=g-2
+      - GROUP_ID=A
 
   api_3:
     hostname: api_3
@@ -70,5 +70,5 @@ services:
       - MQ_PORT=61613
       - REDIS_HOST=redisservice
       - REDIS_PORT=6379
-      - GROUP_ID=g-3
+      - GROUP_ID=B
       

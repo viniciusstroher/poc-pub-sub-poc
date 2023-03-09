@@ -32,19 +32,23 @@ const connectOptions = {
 
 const subscribeHeaders = {
     // 'destination': '/topic/VirtualTopic.Orders',
-    'destination': '/queue/Consumer.A.VirtualTopic.Orders',
+    // 'destination': `/queue/Consumer.A.VirtualTopic.Orders`,
+    'destination': `/queue/Consumer.${process.env.GROUP || 'A'}.VirtualTopic.Orders`,
     'ack': 'client-individual',
     // 'selector': `_AMQ_GROUP_ID='${process.env.GROUP_ID || 'g-1'}'`
 }
 
+
+const getDate = () => {
+  return new Date().toISOString()
+}
+
+console.log(`[${hostName}][${getDate()}] subscribe header - ${JSON.stringify(subscribeHeaders)} `)
 /*
   se usar 'ack': 'client-individual' precisar dar ack ou nack
   se não usar é automatico
 */
 
-const getDate = () => {
-    return new Date().toISOString()
-}
 
 stompit.connect(connectOptions, (error, client) => {
   if (error) {
