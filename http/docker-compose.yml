@@ -1,0 +1,67 @@
+version: '3'
+services:
+  web:
+    image: nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    command: [nginx-debug, '-g', 'daemon off;']
+    depends_on:
+      api_1:
+        condition: service_healthy
+      api_2:
+        condition: service_healthy
+      api_3:
+        condition: service_healthy
+    ports:
+      - 3539:3539
+    environment:
+      - SERVER_NAME=server1
+      - PORT=3539
+
+  api_1:
+    hostname: api_1
+    container_name: api_1
+    build: .
+    restart: always
+    environment:
+      - PORT=3536
+    ports:
+      - 3536:3536
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://127.0.0.1:3536/healthcheck"]
+        interval: 5s
+        timeout: 10s
+        retries: 2
+
+  api_2:
+    hostname: api_2
+    container_name: api_2
+    build: .
+    restart: always
+    environment:
+      - PORT=3537
+    ports:
+      - 3537:3537
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://127.0.0.1:3537/healthcheck"]
+        interval: 5s
+        timeout: 10s
+        retries: 2
+
+  api_3:
+    hostname: api_3
+    container_name: api_3
+    build: .
+    restart: always
+    environment:
+      - PORT=3538
+    ports:
+      - 3538:3538
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://127.0.0.1:3538/healthcheck"]
+        interval: 5s
+        timeout: 10s
+        retries: 2  
+networks:
+  app-network:
+    external: true
