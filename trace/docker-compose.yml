@@ -61,3 +61,4 @@ services:
 # https://opentelemetry.io/docs/collector/getting-started/
 # https://opentelemetry.io/docs/collector/configuration/
 # https://github.com/open-telemetry/opentelemetry-erlang/blob/main/config/otel-collector-config.yaml
+# https://medium.com/@guilospanck/telemetry-with-opentelemetry-prometheus-and-jaeger-46a2d9dec86b
