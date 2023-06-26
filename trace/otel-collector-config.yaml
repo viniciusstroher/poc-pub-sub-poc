@@ -17,6 +17,9 @@ exporters:
     tls:
       insecure: true
 
+  prometheus:
+    endpoint: "0.0.0.0:8889"
+
   logging:
     loglevel: debug
     sampling_initial: 1
@@ -33,7 +36,7 @@ service:
     metrics:
       receivers: [otlp]
       processors: [batch]
-      exporters: [logging]
+      exporters: [logging, prometheus]
     logs:
       receivers: [otlp]
       processors: [batch]

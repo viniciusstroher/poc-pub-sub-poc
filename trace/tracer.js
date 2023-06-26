@@ -1,11 +1,12 @@
 const process = require('process');
-const { NodeSDK } = require('@opentelemetry/sdk-node');
-const { ConsoleSpanExporter } = require('@opentelemetry/sdk-trace-node');
 const { getNodeAutoInstrumentations } = require('@opentelemetry/auto-instrumentations-node');
+const { NodeSDK } = require('@opentelemetry/sdk-node');
 const { PeriodicExportingMetricReader, ConsoleMetricExporter } = require('@opentelemetry/sdk-metrics');
 const { diag, DiagConsoleLogger, DiagLogLevel } = require('@opentelemetry/api');
 const { OTLPTraceExporter } = require('@opentelemetry/exporter-trace-otlp-http');
 const { OTLPMetricExporter } = require('@opentelemetry/exporter-metrics-otlp-http')
+const { Resource } = require('@opentelemetry/resources');
+const { SemanticResourceAttributes } = require('@opentelemetry/semantic-conventions');
 
 const createTrace = (serviceName) => {
   // configure the SDK to export telemetry data to the console
@@ -14,19 +15,28 @@ const createTrace = (serviceName) => {
   diag.setLogger(new DiagConsoleLogger(), DiagLogLevel.INFO);
 
   const metricExporter = new OTLPMetricExporter({
-    url: process.env.METRIC,
+    url: process.env.METRIC || 'http://localhost:4318/v1/metrics',
+    // concurrencyLimit: 1,
   });
 
+  // const metricExporter = new ConsoleMetricExporter()
+
   const traceExporter = new OTLPTraceExporter({
-    url: process.env.TRACE,
+    url: process.env.TRACE || 'http://localhost:4318/v1/traces',
   });
+
+  
 
   const sdk = new NodeSDK({
     traceExporter: traceExporter,
     metricReader: new PeriodicExportingMetricReader({
-      exporter: metricExporter
+      exporter: metricExporter,
+      exportIntervalMillis: 1000
     }),
-    instrumentations: [getNodeAutoInstrumentations()]
+    instrumentations: [getNodeAutoInstrumentations()],
+    resource: new Resource({
+      [SemanticResourceAttributes.SERVICE_NAME]: 'api-teste',
+    }),  
   });
 
   // initialize the SDK and register with the OpenTelemetry API
