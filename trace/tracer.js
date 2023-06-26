@@ -5,6 +5,7 @@ const { getNodeAutoInstrumentations } = require('@opentelemetry/auto-instrumenta
 const { PeriodicExportingMetricReader, ConsoleMetricExporter } = require('@opentelemetry/sdk-metrics');
 const { diag, DiagConsoleLogger, DiagLogLevel } = require('@opentelemetry/api');
 const { OTLPTraceExporter } = require('@opentelemetry/exporter-trace-otlp-http');
+const { OTLPMetricExporter } = require('@opentelemetry/exporter-metrics-otlp-http')
 
 const createTrace = (serviceName) => {
   // configure the SDK to export telemetry data to the console
@@ -12,10 +13,18 @@ const createTrace = (serviceName) => {
   // const traceExporter = new ConsoleSpanExporter();
   diag.setLogger(new DiagConsoleLogger(), DiagLogLevel.INFO);
 
+  const metricExporter = new OTLPMetricExporter({
+    url: process.env.METRIC,
+  });
+
+  const traceExporter = new OTLPTraceExporter({
+    url: process.env.TRACE,
+  });
+
   const sdk = new NodeSDK({
-    traceExporter: new OTLPTraceExporter(),
+    traceExporter: traceExporter,
     metricReader: new PeriodicExportingMetricReader({
-      exporter: new ConsoleMetricExporter()
+      exporter: metricExporter
     }),
     instrumentations: [getNodeAutoInstrumentations()]
   });

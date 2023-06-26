@@ -50,9 +50,9 @@ services:
       - "3535:3535"
     restart: always
     environment:
-      # - METRIC=http://jaeger:4318/v1/metrics
-      # - TRACE=http://jaeger:14268/api/traces
-      - OTEL_EXPORTER_OTLP_ENDPOINT="http://otel-collector:4318"
+      - METRIC=http://otel-collector:4318/v1/metrics
+      - TRACE=http://otel-collector:4318/v1/traces
+      # - OTEL_EXPORTER_OTLP_ENDPOINT="http://otel-collector:4318"
 
 # https://www.jaegertracing.io/docs/1.46/getting-started/
 # https://logz.io/blog/nodejs-javascript-opentelemetry-auto-instrumentation/#tracer
@@ -60,3 +60,4 @@ services:
 # https://github.com/open-telemetry/opentelemetry-js/blob/main/examples/otlp-exporter-node/tracing.js
 # https://opentelemetry.io/docs/collector/getting-started/
 # https://opentelemetry.io/docs/collector/configuration/
+# https://github.com/open-telemetry/opentelemetry-erlang/blob/main/config/otel-collector-config.yaml

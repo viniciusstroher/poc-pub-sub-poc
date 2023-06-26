@@ -1,39 +1,40 @@
-extensions:
-  memory_ballast:
-    size_mib: 512
-  zpages:
-    endpoint: localhost:55679
-
+# https://github.com/open-telemetry/opentelemetry-erlang/blob/main/config/otel-collector-config.yaml
 receivers:
   otlp:
     protocols:
       grpc:
-        endpoint: jaeger:4317
+        endpoint: "0.0.0.0:4317"
       http:
-        endpoint: jaeger:4318
+        endpoint: "0.0.0.0:4318"
 
 processors:
   batch:
-  memory_limiter:
-    # 75% of maximum memory up to 4G
-    limit_mib: 1536
-    # 25% of limit up to 2G
-    spike_limit_mib: 512
-    check_interval: 5s
-
+    send_batch_size: 1024
+    timeout: 5s
 exporters:
-  logging:
-    verbosity: detailed
+  jaeger:
+    endpoint: jaeger:14250
+    tls:
+      insecure: true
 
+  logging:
+    loglevel: debug
+    sampling_initial: 1
+    sampling_thereafter: 1
+extensions:
+  zpages: {}
 service:
+  extensions: [zpages]
   pipelines:
     traces:
       receivers: [otlp]
-      processors: [memory_limiter, batch]
-      exporters: [logging]
+      processors: [batch]
+      exporters: [logging, jaeger]
     metrics:
       receivers: [otlp]
-      processors: [memory_limiter, batch]
+      processors: [batch]
       exporters: [logging]
-
-  extensions: [memory_ballast, zpages]
+    logs:
+      receivers: [otlp]
+      processors: [batch]
+      exporters: [logging]
