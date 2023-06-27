@@ -16,9 +16,10 @@ exporters:
     endpoint: jaeger:14250
     tls:
       insecure: true
-
   prometheus:
     endpoint: "0.0.0.0:8889"
+    namespace: promexample
+
 
   logging:
     loglevel: debug

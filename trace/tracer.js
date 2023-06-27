@@ -31,7 +31,7 @@ const createTrace = (serviceName) => {
     traceExporter: traceExporter,
     metricReader: new PeriodicExportingMetricReader({
       exporter: metricExporter,
-      exportIntervalMillis: 1000
+      exportIntervalMillis: 100000
     }),
     instrumentations: [getNodeAutoInstrumentations()],
     resource: new Resource({

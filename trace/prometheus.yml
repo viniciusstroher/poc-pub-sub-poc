@@ -3,6 +3,7 @@ global:
   evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
   # scrape_timeout is set to the global default (10s).
 scrape_configs:
-  - job_name: aggregated-trace-metrics
-    static_configs:
-    - targets: ['otel-collector:8889'] # using the name of the OpenTelemetryCollector container defined in the docker compose file
+- job_name: aggregated-trace-metrics
+  metrics_path: /metrics
+  static_configs:
+  - targets: ['otel-collector:8889'] # using the name of the OpenTelemetryCollector container defined in the docker compose file
