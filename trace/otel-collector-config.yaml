@@ -44,6 +44,9 @@ service:
   telemetry:
       logs:
         level: "debug"
+      metrics:
+        address: ":8888"
+
   extensions: [zpages, health_check]
   pipelines:
     traces:

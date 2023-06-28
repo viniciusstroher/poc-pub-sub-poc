@@ -28,9 +28,9 @@ services:
       - LOG_LEVEL=debug
       - METRICS_STORAGE_TYPE=prometheus
       - PROMETHEUS_SERVER_URL=http://prometheus:9090
-      - PROMETHEUS_QUERY_SUPPORT_SPANMETRICS_CONNECTOR=true
+      # - PROMETHEUS_QUERY_SUPPORT_SPANMETRICS_CONNECTOR=true
       # - PROMETHEUS_QUERY_NAMESPACE=span_metrics
-      - PROMETHEUS_QUERY_DURATION_UNIT=ms
+      # - PROMETHEUS_QUERY_DURATION_UNIT=ms
       # - OTEL_EXPORTER_JAEGER_ENDPOINT=http://jaeger:14268/api/traces
 
   otel-collector:
