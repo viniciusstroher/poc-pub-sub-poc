@@ -10,8 +10,11 @@ receivers:
 connectors:
   spanmetrics:
     namespace: span.metrics
+
 processors:
   batch:
+  spanmetrics:
+    metrics_exporter: prometheus
 
 exporters:
   jaeger:
@@ -22,10 +25,10 @@ exporters:
     endpoint: "0.0.0.0:8889"
     # namespace: promexample
 
-  prometheusremotewrite:
-    endpoint: http://prometheus:9090/api/v1/write
-    target_info:
-      enabled: true
+  # prometheusremotewrite:
+  #   endpoint: http://prometheus:9090/api/v1/write
+  #   target_info:
+  #     enabled: true
 
   logging:
     loglevel: info
@@ -38,14 +41,17 @@ extensions:
   zpages:
 
 service:
+  telemetry:
+      logs:
+        level: "debug"
   extensions: [zpages]
   pipelines:
     traces:
       receivers: [otlp]
-      processors: [batch]
-      exporters: [logging, jaeger]
+      processors: [ batch, spanmetrics ]
+      exporters: [logging, jaeger, spanmetrics]
     metrics:
-      receivers: [otlp]
+      receivers: [otlp, spanmetrics]
       processors: [batch]
       exporters: [logging, prometheus]
     logs:
