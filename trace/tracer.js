@@ -1,13 +1,17 @@
-const process = require('process');
+
+const grpc = require('@opentelemetry/instrumentation-grpc');
 const { getNodeAutoInstrumentations } = require('@opentelemetry/auto-instrumentations-node');
+
+const process = require('process');
 const { NodeSDK } = require('@opentelemetry/sdk-node');
-const { PeriodicExportingMetricReader, ConsoleMetricExporter } = require('@opentelemetry/sdk-metrics');
-const { diag, DiagConsoleLogger, DiagLogLevel } = require('@opentelemetry/api');
+const { PeriodicExportingMetricReader } = require('@opentelemetry/sdk-metrics');
+const { diag, DiagConsoleLogger, DiagLogLevel, metrics } = require('@opentelemetry/api');
 const { OTLPTraceExporter } = require('@opentelemetry/exporter-trace-otlp-http');
 const { OTLPMetricExporter } = require('@opentelemetry/exporter-metrics-otlp-http')
 const { Resource } = require('@opentelemetry/resources');
-const { SemanticResourceAttributes } = require('@opentelemetry/semantic-conventions');
 
+const { SemanticResourceAttributes } = require('@opentelemetry/semantic-conventions');
+// 
 const createTrace = (serviceName) => {
   // configure the SDK to export telemetry data to the console
   // enable all auto-instrumentations from the meta package
@@ -25,24 +29,26 @@ const createTrace = (serviceName) => {
     url: process.env.TRACE || 'http://localhost:4318/v1/traces',
   });
 
-  
+  const serviceResource = new Resource({
+    [SemanticResourceAttributes.SERVICE_NAME]: 'api-teste',
+  })
+
+  const periodicExporter = new PeriodicExportingMetricReader({
+    exporter: metricExporter,
+    exportIntervalMillis: 1000
+  })
 
   const sdk = new NodeSDK({
     traceExporter: traceExporter,
-    metricReader: new PeriodicExportingMetricReader({
-      exporter: metricExporter,
-      exportIntervalMillis: 100000
-    }),
+    metricReader: periodicExporter,
     instrumentations: [getNodeAutoInstrumentations()],
-    resource: new Resource({
-      [SemanticResourceAttributes.SERVICE_NAME]: 'api-teste',
-    }),  
+    resource: serviceResource,  
   });
 
   // initialize the SDK and register with the OpenTelemetry API
   // this enables the API to record telemetry
   sdk.start()
-
+  
   // gracefully shut down the SDK on process exit
   process.on('SIGTERM', () => {
     sdk.shutdown()
@@ -50,6 +56,13 @@ const createTrace = (serviceName) => {
       .catch((error) => console.log('Error terminating tracing', error))
       .finally(() => process.exit(0));
   });
+
+  return {
+    sdk,
+    traceExporter,
+    metricExporter,
+    metrics
+  }
 }
 
 module.exports = {

@@ -2,7 +2,17 @@
   const {
     createTrace
   } = require('./tracer')
-  createTrace('teste')
+  const {
+    metrics
+  } = createTrace('teste')
+  
+  const meter = metrics.getMeter('request-root-hit-counter'); //TODO Replace with the name of your meter
+
+  const requestRootHitCounter = meter.createCounter('request-root-hit-counter', { //TODO Replace with the name of your instrument
+    description: 'Example of a Counter', //TODO Replace with the description of your isntrument
+  });
+  
+  
 
   const express = require('express')
   const app = express()
@@ -18,6 +28,7 @@
 
   app.get('/', (req, res) => {
     console.log(`[${hostName}][${getDate()}] hit `)
+    requestRootHitCounter.add(1)
     return res.send({message: 'ok'})
   })
 

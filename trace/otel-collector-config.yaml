@@ -7,10 +7,12 @@ receivers:
       http:
         endpoint: "0.0.0.0:4318"
 
+connectors:
+  spanmetrics:
+    namespace: span.metrics
 processors:
   batch:
-    send_batch_size: 1024
-    timeout: 5s
+
 exporters:
   jaeger:
     endpoint: jaeger:14250
@@ -18,15 +20,23 @@ exporters:
       insecure: true
   prometheus:
     endpoint: "0.0.0.0:8889"
-    namespace: promexample
+    # namespace: promexample
 
+  prometheusremotewrite:
+    endpoint: http://prometheus:9090/api/v1/write
+    target_info:
+      enabled: true
 
   logging:
-    loglevel: debug
+    loglevel: info
     sampling_initial: 1
     sampling_thereafter: 1
+
 extensions:
-  zpages: {}
+  health_check:
+  pprof:
+  zpages:
+
 service:
   extensions: [zpages]
   pipelines:

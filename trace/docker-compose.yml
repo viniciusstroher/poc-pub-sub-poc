@@ -7,9 +7,16 @@ services:
         - 9090:9090
       volumes:
         - ./prometheus.yml:/etc/prometheus/prometheus.yml
+      command:
+        - '--web.enable-remote-write-receiver'
+        - '--config.file=/etc/prometheus/prometheus.yml'
+        - '--storage.tsdb.path=/prometheus'
+        - '--web.console.libraries=/usr/share/prometheus/console_libraries'
+        - '--web.console.templates=/usr/share/prometheus/consoles'
+
   #http://localhost:9090/targets?search=
   #http://localhost:9090/metrics
-  
+
   jaeger:
     image: jaegertracing/all-in-one:latest
     ports:
@@ -21,9 +28,13 @@ services:
       - LOG_LEVEL=debug
       - METRICS_STORAGE_TYPE=prometheus
       - PROMETHEUS_SERVER_URL=http://prometheus:9090
+      - PROMETHEUS_QUERY_SUPPORT_SPANMETRICS_CONNECTOR=true
+      - PROMETHEUS_QUERY_NAMESPACE=span_metrics
+      - PROMETHEUS_QUERY_DURATION_UNIT=s
+
 
   otel-collector:
-    image: otel/opentelemetry-collector
+    image: otel/opentelemetry-collector-contrib
     container_name: otel-collector
     platform: linux
     environment:
@@ -52,9 +63,10 @@ services:
       - "3535:3535"
     restart: always
     environment:
+      - PORT=3535
       - METRIC=http://otel-collector:4318/v1/metrics
       - TRACE=http://otel-collector:4318/v1/traces
-      # - OTEL_EXPORTER_OTLP_ENDPOINT="http://otel-collector:4318"
+      - OTEL_EXPORTER_OTLP_ENDPOINT="http://otel-collector:4318"
 
 # https://www.jaegertracing.io/docs/1.46/getting-started/
 # https://logz.io/blog/nodejs-javascript-opentelemetry-auto-instrumentation/#tracer
@@ -64,3 +76,4 @@ services:
 # https://opentelemetry.io/docs/collector/configuration/
 # https://github.com/open-telemetry/opentelemetry-erlang/blob/main/config/otel-collector-config.yaml
 # https://medium.com/@guilospanck/telemetry-with-opentelemetry-prometheus-and-jaeger-46a2d9dec86b
+# https://github.com/SumoLogic/sumologic-otel-collector
