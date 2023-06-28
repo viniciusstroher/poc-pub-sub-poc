@@ -4,7 +4,7 @@
   } = require('./tracer')
   const {
     metrics
-  } = createTrace('teste')
+  } = createTrace()
   
   const meter = metrics.getMeter('request-root-hit-counter'); //TODO Replace with the name of your meter
 
@@ -29,6 +29,13 @@
   app.get('/', (req, res) => {
     console.log(`[${hostName}][${getDate()}] hit `)
     requestRootHitCounter.add(1)
+
+    const randNum = Math.random() * 100
+    
+    if(randNum % 2 == 0){
+       throw new Error('teste')
+    }
+
     return res.send({message: 'ok'})
   })
 
@@ -36,7 +43,7 @@
     return res.send({message: 'ok'})
   })
   
-  const port = process.env.PORT || '3535'
+  const port = process.env.PORT || '3536'
   
   console.log(`[${hostName}][${getDate()}] start server at port ${port} `)
 

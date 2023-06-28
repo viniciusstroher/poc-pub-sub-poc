@@ -30,7 +30,7 @@ services:
       - PROMETHEUS_SERVER_URL=http://prometheus:9090
       - PROMETHEUS_QUERY_SUPPORT_SPANMETRICS_CONNECTOR=true
       # - PROMETHEUS_QUERY_NAMESPACE=span_metrics
-      - PROMETHEUS_QUERY_DURATION_UNIT=s
+      - PROMETHEUS_QUERY_DURATION_UNIT=ms
       # - OTEL_EXPORTER_JAEGER_ENDPOINT=http://jaeger:14268/api/traces
 
   otel-collector:
@@ -63,7 +63,22 @@ services:
       - "3535:3535"
     restart: always
     environment:
+      - HOST=api_1
       - PORT=3535
+      - METRIC=http://otel-collector:4318/v1/metrics
+      - TRACE=http://otel-collector:4318/v1/traces
+      - OTEL_EXPORTER_OTLP_ENDPOINT="http://otel-collector:4318"
+
+  api_2:
+    hostname: api_2
+    container_name: api_2
+    build: .
+    ports:
+      - "3536:3536"
+    restart: always
+    environment:
+      - HOST=api_2
+      - PORT=3536
       - METRIC=http://otel-collector:4318/v1/metrics
       - TRACE=http://otel-collector:4318/v1/traces
       - OTEL_EXPORTER_OTLP_ENDPOINT="http://otel-collector:4318"

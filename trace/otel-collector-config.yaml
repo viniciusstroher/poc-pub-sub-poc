@@ -44,7 +44,7 @@ service:
   telemetry:
       logs:
         level: "debug"
-  extensions: [zpages]
+  extensions: [zpages, health_check]
   pipelines:
     traces:
       receivers: [otlp]

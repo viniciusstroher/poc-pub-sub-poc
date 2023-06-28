@@ -12,7 +12,7 @@ const { Resource } = require('@opentelemetry/resources');
 
 const { SemanticResourceAttributes } = require('@opentelemetry/semantic-conventions');
 // 
-const createTrace = (serviceName) => {
+const createTrace = () => {
   // configure the SDK to export telemetry data to the console
   // enable all auto-instrumentations from the meta package
   // const traceExporter = new ConsoleSpanExporter();
@@ -30,7 +30,7 @@ const createTrace = (serviceName) => {
   });
 
   const serviceResource = new Resource({
-    [SemanticResourceAttributes.SERVICE_NAME]: 'api-teste',
+    [SemanticResourceAttributes.SERVICE_NAME]: process.env.HOST,
   })
 
   const periodicExporter = new PeriodicExportingMetricReader({
