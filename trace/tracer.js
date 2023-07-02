@@ -10,20 +10,71 @@ const { OTLPTraceExporter } = require('@opentelemetry/exporter-trace-otlp-http')
 const { OTLPMetricExporter } = require('@opentelemetry/exporter-metrics-otlp-http')
 const { Resource } = require('@opentelemetry/resources');
 
+const { logs, SeverityNumber } = require('@opentelemetry/api-logs');
+const {
+  LoggerProvider,
+  ConsoleLogRecordExporter,
+  SimpleLogRecordProcessor,
+} = require('@opentelemetry/sdk-logs');
+
+
+
 const { SemanticResourceAttributes } = require('@opentelemetry/semantic-conventions');
 // 
 const createTrace = () => {
-  // configure the SDK to export telemetry data to the console
-  // enable all auto-instrumentations from the meta package
-  // const traceExporter = new ConsoleSpanExporter();
-  diag.setLogger(new DiagConsoleLogger(), DiagLogLevel.INFO);
+  // diag.setLogger(new DiagConsoleLogger(), DiagLogLevel.DEBUG)
+
+  const { createLogger, format, transports } = require('winston')
+  SplunkStreamEvent = require('winston-splunk-httplogger')
+
+  const splunkSettings = {
+      token: '00000000-0000-0000-0000-0000000000000',
+      url: 'http://splunk:8088/services/collector',
+      index: 'logs'
+      // host: 'splunk',
+      // port: 8088,
+      // path: '/services/collector',
+      // protocol: 'http'
+  };
+
+  const consoleTransport = new transports.Console();
+  const fileTransport = new transports.File({ filename: './log.log' })
+
+
+  const logger = createLogger({
+    format: format.combine(
+        format.timestamp(),
+        format.label({
+          label: `SERVER - ${process.env.HOST}`
+        }),
+        format.json(),
+        
+    ),
+    exitOnError: false,
+    transports: [
+      consoleTransport,
+      fileTransport,
+      new SplunkStreamEvent({ splunk: splunkSettings })
+    ],
+  });
+
+  // console.log(
+  //   Logger, transports
+  // )
+  // // Now use winston as normal
+  // const logger = new Logger({
+  //     transports: [
+  //         new transports.Console(),
+  //         new SplunkStreamEvent({ splunk: splunkSettings })
+  //     ]
+  // });
+
+  // logger.info('This is sent to Splunk');
 
   const metricExporter = new OTLPMetricExporter({
     url: process.env.METRIC || 'http://localhost:4318/v1/metrics',
     // concurrencyLimit: 1,
   });
-
-  // const metricExporter = new ConsoleMetricExporter()
 
   const traceExporter = new OTLPTraceExporter({
     url: process.env.TRACE || 'http://localhost:4318/v1/traces',
@@ -61,7 +112,8 @@ const createTrace = () => {
     sdk,
     traceExporter,
     metricExporter,
-    metrics
+    metrics,
+    logger
   }
 }
 

@@ -23,17 +23,16 @@ exporters:
       insecure: true
   prometheus:
     endpoint: "0.0.0.0:8889"
-    # namespace: promexample
 
-  # prometheusremotewrite:
-  #   endpoint: http://prometheus:9090/api/v1/write
-  #   target_info:
-  #     enabled: true
+  # splunk_hec:
+  #   token: "00000000-0000-0000-0000-0000000000000"
+  #   endpoint: "https://splunk:8088/services/collector"
+  #   index: "logs"
+  #   tls:
+  #     insecure_skip_verify: true
 
   logging:
     loglevel: info
-    sampling_initial: 1
-    sampling_thereafter: 1
 
 extensions:
   health_check:
@@ -41,23 +40,23 @@ extensions:
   zpages:
 
 service:
-  telemetry:
-      logs:
-        level: "debug"
-      metrics:
-        address: ":8888"
-
   extensions: [zpages, health_check]
   pipelines:
     traces:
       receivers: [otlp]
       processors: [ batch, spanmetrics ]
-      exporters: [logging, jaeger, spanmetrics]
+      # exporters: [logging, jaeger, spanmetrics]
+      exporters: [jaeger, spanmetrics]
     metrics:
       receivers: [otlp, spanmetrics]
       processors: [batch]
-      exporters: [logging, prometheus]
-    logs:
-      receivers: [otlp]
-      processors: [batch]
-      exporters: [logging]
+      # exporters: [logging, prometheus]
+      exporters: [prometheus]
+    # logs:
+    #   receivers: [otlp]
+    #   processors: [batch]
+    #   exporters: [logging, splunk_hec]
+
+
+#USAR FILELOG
+#https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/filelogreceiver

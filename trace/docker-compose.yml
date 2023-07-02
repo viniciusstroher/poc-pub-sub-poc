@@ -52,8 +52,25 @@ services:
       - "55679:55679" # zpages extension
       
     depends_on:
-      - jaeger-all-in-one
+      - jaeger
       - prometheus
+
+  splunk:
+    image: splunk/splunk:latest
+    container_name: splunk
+    environment:
+      - SPLUNK_START_ARGS=--accept-license
+      - SPLUNK_HEC_TOKEN=00000000-0000-0000-0000-0000000000000
+      - SPLUNK_PASSWORD=changeme
+    ports:
+      - 18000:8000
+    healthcheck:
+      test: ['CMD', 'curl', '-f', 'http://localhost:8000']
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    volumes:
+      - ./splunk.yml:/tmp/defaults/default.yml
 
   api_1:
     hostname: api_1
@@ -68,7 +85,9 @@ services:
       - METRIC=http://otel-collector:4318/v1/metrics
       - TRACE=http://otel-collector:4318/v1/traces
       - OTEL_EXPORTER_OTLP_ENDPOINT="http://otel-collector:4318"
-
+    depends_on:
+      - otel-collector
+    
   api_2:
     hostname: api_2
     container_name: api_2
@@ -82,6 +101,8 @@ services:
       - METRIC=http://otel-collector:4318/v1/metrics
       - TRACE=http://otel-collector:4318/v1/traces
       - OTEL_EXPORTER_OTLP_ENDPOINT="http://otel-collector:4318"
+    depends_on:
+      - otel-collector
 
 # https://www.jaegertracing.io/docs/1.46/getting-started/
 # https://logz.io/blog/nodejs-javascript-opentelemetry-auto-instrumentation/#tracer
@@ -92,3 +113,6 @@ services:
 # https://github.com/open-telemetry/opentelemetry-erlang/blob/main/config/otel-collector-config.yaml
 # https://medium.com/@guilospanck/telemetry-with-opentelemetry-prometheus-and-jaeger-46a2d9dec86b
 # https://github.com/SumoLogic/sumologic-otel-collector
+# # https://github.com/open-telemetry/opentelemetry-erlang/blob/main/config/otel-collector-config.yaml
+# https://github.com/open-telemetry/opentelemetry-js/blob/main/experimental/examples/logs/index.ts
+# https://github.com/adrianhall/winston-splunk-httplogger

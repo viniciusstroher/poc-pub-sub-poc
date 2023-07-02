@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@opentelemetry/api-logs": "^0.40.0",
     "redis": "^4.6.5"
   }
 }
