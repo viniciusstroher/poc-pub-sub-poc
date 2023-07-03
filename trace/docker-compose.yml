@@ -54,6 +54,30 @@ services:
     depends_on:
       - jaeger
       - prometheus
+  
+  redisservice:
+      image: redis:alpine3.14
+      container_name: redisservice
+      restart: always
+      ports:
+        - 6379:6379
+      command: redis-server --appendonly yes
+
+  mqservice:
+    image: rmohr/activemq
+    container_name: mqservice
+    restart: always
+    ports:
+      - 5672:5672
+      - 61613:61613
+      - 61614:61614
+      - 61616:61616
+      - 8161:8161
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost:8161"]
+        interval: 10s
+        timeout: 10s
+        retries: 5
 
   splunk:
     image: splunk/splunk:latest
@@ -85,8 +109,16 @@ services:
       - METRIC=http://otel-collector:4318/v1/metrics
       - TRACE=http://otel-collector:4318/v1/traces
       - OTEL_EXPORTER_OTLP_ENDPOINT="http://otel-collector:4318"
+      - MQ_HOST=mqservice
+      - MQ_PORT=61613
+      - REDIS_HOST=redisservice
+      - REDIS_PORT=6379
+      - GROUP_ID=A
     depends_on:
-      - otel-collector
+      otel-collector:
+        condition: service_started
+      splunk:
+        condition: service_healthy
     
   api_2:
     hostname: api_2
@@ -101,8 +133,16 @@ services:
       - METRIC=http://otel-collector:4318/v1/metrics
       - TRACE=http://otel-collector:4318/v1/traces
       - OTEL_EXPORTER_OTLP_ENDPOINT="http://otel-collector:4318"
+      - MQ_HOST=mqservice
+      - MQ_PORT=61613
+      - REDIS_HOST=redisservice
+      - REDIS_PORT=6379
+      - GROUP_ID=A
     depends_on:
-      - otel-collector
+      otel-collector:
+        condition: service_started
+      splunk:
+        condition: service_healthy
 
 # https://www.jaegertracing.io/docs/1.46/getting-started/
 # https://logz.io/blog/nodejs-javascript-opentelemetry-auto-instrumentation/#tracer

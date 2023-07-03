@@ -2,23 +2,32 @@
   const {
     createTrace
   } = require('./tracer')
+
   const {
     metrics,
     logger
   } = createTrace()
-  const { logs, SeverityNumber } = require('@opentelemetry/api-logs');
-  const meter = metrics.getMeter('request-root-hit-counter'); //TODO Replace with the name of your meter
 
-  const requestRootHitCounter = meter.createCounter('request-root-hit-counter', { //TODO Replace with the name of your instrument
-    description: 'Example of a Counter', //TODO Replace with the description of your isntrument
-  });
+  const meter = metrics.getMeter('request-root-hit-counter')
+
+  const requestRootHitCounter = meter.createCounter('request-root-hit-counter', { 
+    description: 'Example of a Counter'
+  })
   
+  const {
+    setRedis,
+    getRedis
+  } = require('./redis')
+
+  const {
+    listenMessage,
+    sendMessage
+  } = require('./message')
+
   const express = require('express')
   const app = express()
-  const os = require("os")
-  const hostName = os.hostname()
 
-  app.get('/', (req, res) => {
+  app.get('/', async (req, res) => {
     logger.info(`hit root`)
     
     requestRootHitCounter.add(1)
@@ -29,18 +38,28 @@
        throw new Error('teste')
     }
 
-    return res.send({message: 'ok'})
+    await setRedis('hit_root', new Date().getTime())
+    const time = await getRedis('hit_root')
+
+    await sendMessage(logger, 'blah')
+
+    return res.send({message: 'ok', time})
   })
 
-  app.get('/healthcheck', (req, res) => {
+  app.get('/healthcheck', async (req, res) => {
     logger.info(`hit healthcheck`)
 
-    return res.send({message: 'ok'})
+    await setRedis('hit_healthcheck', new Date().getTime())
+    const time = await getRedis('hit_healthcheck')
+
+    return res.send({message: 'ok', time })
   })
   
   const port = process.env.PORT || '3536'
   
   logger.info(`start server at port ${port} `)
+
+  listenMessage(logger)
 
   app.listen(port)
 })()
