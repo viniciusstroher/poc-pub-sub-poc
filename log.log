@@ -1,0 +1,875 @@
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T00:07:18.900Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T00:07:31.950Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T00:28:18.370Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T00:28:55.342Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T00:29:46.671Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T00:29:49.646Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T00:30:08.134Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T00:30:14.123Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T00:30:27.826Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T00:30:31.756Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:00:59.788Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T01:01:03.974Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:04:56.836Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T01:05:35.120Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:05:45.957Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:06:58.567Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:10:03.786Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T01:10:20.123Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:10:52.832Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T01:11:15.624Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T01:11:18.761Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T01:11:18.763Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:12:40.413Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T01:13:00.867Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T01:13:00.890Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T01:13:00.892Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:15:17.120Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T01:15:24.130Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T01:15:24.157Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T01:15:24.159Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:17:37.093Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T01:17:43.644Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T01:17:43.663Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T01:17:43.665Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:19:12.199Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:20:07.786Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T01:20:10.330Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T01:20:10.360Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T01:20:10.362Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:21:08.147Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T01:21:56.253Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T01:21:56.275Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T01:21:56.277Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:25:32.286Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:28:17.554Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T01:28:22.824Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T01:28:22.843Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T01:28:22.845Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T01:28:23.403Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T01:28:23.418Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T01:28:23.420Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:30:39.834Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T01:30:49.281Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T01:30:49.301Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T01:30:49.302Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T01:30:49.468Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T01:30:49.483Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T01:30:49.484Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T01:30:49.627Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T01:30:49.641Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T01:30:49.644Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-37473-1688861156459-3:35:-1:1:1 - blah","timestamp":"2023-07-09T01:30:49.651Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-37473-1688861156459-3:35:-1:1:1","timestamp":"2023-07-09T01:30:49.652Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T01:30:49.809Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T01:30:49.823Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T01:30:49.824Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:38:49.637Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T01:38:57.040Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T01:38:57.061Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T01:38:57.063Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:44:19.834Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:44:49.926Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T01:47:50.736Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T01:47:50.798Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T01:47:50.801Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:48:46.170Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:50:25.754Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T01:50:57.405Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T01:50:57.432Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T01:50:57.434Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T01:59:29.947Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T01:59:34.804Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T01:59:34.853Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T01:59:34.855Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T01:59:55.463Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T01:59:55.485Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T01:59:55.487Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T02:10:28.711Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T02:10:31.099Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T02:10:31.136Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T02:10:31.138Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T02:10:48.579Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T02:10:48.609Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T02:10:48.611Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T16:30:09.328Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T16:59:35.891Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T16:59:53.653Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T17:00:36.891Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T17:32:23.305Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T17:32:46.698Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T17:36:08.425Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T17:36:27.022Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T17:37:56.021Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T17:38:48.234Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T17:38:58.402Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T17:39:11.522Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T17:39:11.525Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T17:47:34.640Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T17:47:37.075Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T17:47:37.097Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T17:47:37.100Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T17:54:50.871Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T17:54:50.909Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T17:54:50.911Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T17:54:52.963Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T17:54:52.981Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T17:54:52.983Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:11:-1:1:1 - blah","timestamp":"2023-07-09T17:54:52.989Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:11:-1:1:1","timestamp":"2023-07-09T17:54:52.992Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T17:54:53.383Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T17:54:53.402Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T17:54:53.403Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T17:55:02.898Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T17:55:02.916Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T17:55:02.918Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T17:55:03.488Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T17:55:03.507Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T17:55:03.509Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:14:-1:1:1 - blah","timestamp":"2023-07-09T17:55:06.901Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T18:19:46.495Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T18:20:12.993Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T18:20:13.019Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T18:20:13.021Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T18:21:02.599Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T18:21:06.825Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T18:21:06.853Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T18:21:06.856Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T18:21:19.728Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T18:21:19.746Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T18:21:19.748Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T18:21:34.024Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T18:21:34.042Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T18:21:34.044Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:20:-1:1:1 - blah","timestamp":"2023-07-09T18:54:44.488Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:20:-1:1:1","timestamp":"2023-07-09T18:54:44.491Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T18:54:44.506Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T18:54:44.540Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T18:54:44.541Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T18:55:42.878Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T18:55:42.897Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T18:55:42.898Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T18:55:43.642Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T18:55:43.657Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T18:55:43.658Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T18:58:35.292Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T18:59:51.482Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T18:59:55.355Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T18:59:55.377Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T18:59:55.378Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T18:59:56.386Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T18:59:56.404Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T18:59:56.406Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T18:59:57.745Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T18:59:57.761Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T18:59:57.763Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:28:-1:1:1 - blah","timestamp":"2023-07-09T18:59:57.771Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T19:00:40.176Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T19:01:11.737Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:01:11.845Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:01:11.865Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:01:11.866Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:01:12.238Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:01:12.256Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:01:12.257Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:01:12.784Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:01:12.800Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:01:12.802Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:33:-1:1:1 - blah","timestamp":"2023-07-09T19:01:12.810Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T19:01:49.086Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:02:03.091Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:02:03.112Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:02:03.114Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:02:03.924Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:02:03.945Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:02:03.946Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:02:04.285Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:02:04.300Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:02:04.301Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:37:-1:1:1 - blah","timestamp":"2023-07-09T19:02:04.306Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T19:02:38.133Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:02:38.511Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:02:38.533Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:02:38.535Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:02:39.391Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:02:39.410Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:02:39.412Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:02:39.791Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:02:39.809Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:02:39.811Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:41:-1:1:1 - blah","timestamp":"2023-07-09T19:02:39.820Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T19:05:38.205Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T19:06:51.500Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T19:14:33.972Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:14:38.281Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:14:38.303Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:14:38.305Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:14:38.645Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:14:38.663Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:14:38.664Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:14:39.187Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:14:39.203Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:14:39.205Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:47:-1:1:1 - blah","timestamp":"2023-07-09T19:14:39.213Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T19:18:56.483Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:18:56.778Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:18:56.799Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:18:56.801Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:18:57.175Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:18:57.192Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:18:57.193Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:19:00.873Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:19:00.891Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:19:00.893Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:51:-1:1:1 - blah","timestamp":"2023-07-09T19:19:00.897Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T19:19:28.512Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:19:29.189Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:19:29.209Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:19:29.211Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:19:29.753Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:19:29.770Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:19:29.771Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:19:30.123Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:19:30.140Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:19:30.142Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:55:-1:1:1 - blah","timestamp":"2023-07-09T19:19:30.151Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:55:-1:1:1","timestamp":"2023-07-09T19:19:30.153Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:19:30.484Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:19:30.501Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:19:30.503Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:19:48.158Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:19:48.175Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:19:48.176Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T19:19:48.548Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T19:19:48.564Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T19:19:48.566Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:58:-1:1:1 - blah","timestamp":"2023-07-09T19:19:48.570Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:58:-1:1:1","timestamp":"2023-07-09T19:19:48.571Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:61:-1:1:1 - blah","timestamp":"2023-07-09T19:24:12.351Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:61:-1:1:1","timestamp":"2023-07-09T19:24:12.355Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:64:-1:1:1 - blah","timestamp":"2023-07-09T19:24:14.930Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:64:-1:1:1","timestamp":"2023-07-09T19:24:14.932Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:67:-1:1:1 - blah","timestamp":"2023-07-09T20:54:33.058Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:67:-1:1:1","timestamp":"2023-07-09T20:54:33.061Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:70:-1:1:1 - blah","timestamp":"2023-07-09T20:54:33.907Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:70:-1:1:1","timestamp":"2023-07-09T20:54:33.909Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T20:59:22.003Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T20:59:22.024Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T20:59:22.026Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T21:00:05.161Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:00:12.842Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:00:12.863Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:00:12.865Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:00:13.755Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:00:13.773Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:00:13.774Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:00:14.515Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:00:14.531Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:00:14.532Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:76:-1:1:1 - blah","timestamp":"2023-07-09T21:00:14.540Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:76:-1:1:1","timestamp":"2023-07-09T21:00:14.543Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:00:15.530Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:00:15.546Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:00:15.548Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:00:16.775Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:00:16.791Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:00:16.793Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:00:55.117Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:00:55.134Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:00:55.136Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:79:-1:1:1 - blah","timestamp":"2023-07-09T21:00:55.146Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:79:-1:1:1","timestamp":"2023-07-09T21:00:55.148Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:00:55.288Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:00:55.304Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:00:55.305Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:00:55.465Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:00:55.481Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:00:55.483Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:00:55.629Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:00:55.645Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:00:55.646Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:82:-1:1:1 - blah","timestamp":"2023-07-09T21:00:55.654Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:82:-1:1:1","timestamp":"2023-07-09T21:00:55.655Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:00:55.767Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:00:55.782Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:00:55.784Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:00:55.925Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:00:55.939Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:00:55.941Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:00:56.104Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:00:56.121Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:00:56.123Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:85:-1:1:1 - blah","timestamp":"2023-07-09T21:00:56.130Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:85:-1:1:1","timestamp":"2023-07-09T21:00:56.131Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:00:58.908Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:00:58.923Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:00:58.924Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:00:59.077Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:00:59.092Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:00:59.094Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:00:59.231Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:00:59.249Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:00:59.250Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:88:-1:1:1 - blah","timestamp":"2023-07-09T21:00:59.253Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:88:-1:1:1","timestamp":"2023-07-09T21:00:59.254Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:00:59.382Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:00:59.396Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:00:59.397Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:00:59.527Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:00:59.542Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:00:59.544Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:00:59.702Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:00:59.717Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:00:59.719Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:91:-1:1:1 - blah","timestamp":"2023-07-09T21:00:59.722Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:91:-1:1:1","timestamp":"2023-07-09T21:00:59.723Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:00:59.917Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:00:59.932Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:00:59.934Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:01:16.517Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:01:16.533Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:01:16.535Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:01:16.688Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:01:16.705Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:01:16.707Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:94:-1:1:1 - blah","timestamp":"2023-07-09T21:01:16.710Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:94:-1:1:1","timestamp":"2023-07-09T21:01:16.711Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:01:16.850Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:01:16.866Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:01:16.867Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:01:17.017Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:01:17.034Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:01:17.036Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:01:17.203Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:01:17.219Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:01:17.221Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:97:-1:1:1 - blah","timestamp":"2023-07-09T21:01:17.224Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:97:-1:1:1","timestamp":"2023-07-09T21:01:17.225Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:01:17.352Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:01:17.367Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:01:17.368Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:01:17.540Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:01:17.556Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:01:17.558Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:01:35.595Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:01:35.611Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:01:35.613Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:100:-1:1:1 - blah","timestamp":"2023-07-09T21:01:35.617Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:100:-1:1:1","timestamp":"2023-07-09T21:01:35.619Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:01:35.774Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:01:35.791Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:01:35.792Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:01:35.944Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:01:35.960Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:01:35.961Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:01:36.131Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:01:36.147Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:01:36.150Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:103:-1:1:1 - blah","timestamp":"2023-07-09T21:01:36.154Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:103:-1:1:1","timestamp":"2023-07-09T21:01:36.155Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:01:36.313Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:01:36.329Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:01:36.330Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:01:36.480Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:01:36.498Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:01:36.500Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:01:36.647Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:01:36.662Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:01:36.664Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:106:-1:1:1 - blah","timestamp":"2023-07-09T21:01:36.667Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:106:-1:1:1","timestamp":"2023-07-09T21:01:36.668Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:01:36.825Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:01:36.841Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:01:36.843Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:01:36.993Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:01:37.010Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:01:37.012Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:01:37.163Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:01:37.178Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:01:37.180Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:109:-1:1:1 - blah","timestamp":"2023-07-09T21:01:37.183Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:109:-1:1:1","timestamp":"2023-07-09T21:01:37.185Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T21:03:13.472Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T21:04:01.584Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:04:02.308Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:04:02.330Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:04:02.332Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:04:04.037Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:04:04.054Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:04:04.056Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:04:04.456Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:04:04.472Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:04:04.474Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:114:-1:1:1 - blah","timestamp":"2023-07-09T21:04:04.479Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:114:-1:1:1","timestamp":"2023-07-09T21:04:04.481Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:04:04.883Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:04:04.901Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:04:04.903Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:04:05.069Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:04:05.087Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:04:05.089Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:04:05.227Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:04:05.242Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:04:05.244Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:117:-1:1:1 - blah","timestamp":"2023-07-09T21:04:05.250Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:117:-1:1:1","timestamp":"2023-07-09T21:04:05.252Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:04:05.398Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:04:05.413Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:04:05.414Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:04:05.561Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:04:05.578Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:04:05.580Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:04:05.734Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:04:05.754Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:04:05.755Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:120:-1:1:1 - blah","timestamp":"2023-07-09T21:04:05.759Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:120:-1:1:1","timestamp":"2023-07-09T21:04:05.761Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:04:05.905Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:04:05.919Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:04:05.921Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:04:06.052Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:04:06.068Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:04:06.069Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:04:06.215Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:04:06.232Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:04:06.233Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:123:-1:1:1 - blah","timestamp":"2023-07-09T21:04:06.237Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:123:-1:1:1","timestamp":"2023-07-09T21:04:06.238Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:04:06.386Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:04:06.401Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:04:06.402Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:04:06.631Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:04:06.645Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:04:06.647Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:04:06.859Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:04:06.873Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:04:06.875Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:126:-1:1:1 - blah","timestamp":"2023-07-09T21:04:06.879Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:126:-1:1:1","timestamp":"2023-07-09T21:04:06.880Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:04:07.061Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:04:07.075Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:04:07.076Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:04:07.240Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:04:07.258Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:04:07.259Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:04:07.394Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:04:07.409Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:04:07.411Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:129:-1:1:1 - blah","timestamp":"2023-07-09T21:04:07.415Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:129:-1:1:1","timestamp":"2023-07-09T21:04:07.418Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T21:05:51.629Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:06:00.342Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:06:00.363Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:06:00.364Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:06:00.821Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:06:00.836Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:06:00.838Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:06:00.988Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:06:01.004Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:06:01.006Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:133:-1:1:1 - blah","timestamp":"2023-07-09T21:06:01.014Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:133:-1:1:1","timestamp":"2023-07-09T21:06:01.016Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:06:01.142Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:06:01.159Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:06:01.160Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:06:01.287Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:06:01.303Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:06:01.304Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:06:01.478Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:06:01.492Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:06:01.493Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:136:-1:1:1 - blah","timestamp":"2023-07-09T21:06:01.500Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:136:-1:1:1","timestamp":"2023-07-09T21:06:01.501Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:06:01.642Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:06:01.658Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:06:01.659Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:06:01.806Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:06:01.820Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:06:01.822Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:06:01.958Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:06:01.974Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:06:01.975Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:139:-1:1:1 - blah","timestamp":"2023-07-09T21:06:01.979Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:139:-1:1:1","timestamp":"2023-07-09T21:06:01.981Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:06:02.127Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:06:02.145Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:06:02.146Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:142:-1:1:1 - blah","timestamp":"2023-07-09T21:06:20.956Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:142:-1:1:1","timestamp":"2023-07-09T21:06:20.958Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:145:-1:1:1 - blah","timestamp":"2023-07-09T21:06:21.686Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:145:-1:1:1","timestamp":"2023-07-09T21:06:21.688Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:148:-1:1:1 - blah","timestamp":"2023-07-09T21:06:22.296Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:148:-1:1:1","timestamp":"2023-07-09T21:06:22.298Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:151:-1:1:1 - blah","timestamp":"2023-07-09T21:06:22.866Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:151:-1:1:1","timestamp":"2023-07-09T21:06:22.868Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:154:-1:1:1 - blah","timestamp":"2023-07-09T21:06:23.426Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:154:-1:1:1","timestamp":"2023-07-09T21:06:23.428Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:157:-1:1:1 - blah","timestamp":"2023-07-09T21:06:23.976Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:157:-1:1:1","timestamp":"2023-07-09T21:06:23.979Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:160:-1:1:1 - blah","timestamp":"2023-07-09T21:06:24.566Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:160:-1:1:1","timestamp":"2023-07-09T21:06:24.568Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:163:-1:1:1 - blah","timestamp":"2023-07-09T21:06:25.116Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:163:-1:1:1","timestamp":"2023-07-09T21:06:25.118Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:166:-1:1:1 - blah","timestamp":"2023-07-09T21:06:25.656Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:166:-1:1:1","timestamp":"2023-07-09T21:06:25.658Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:10:54.979Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:10:54.996Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:10:54.998Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:10:55.332Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:10:55.346Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:10:55.349Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:169:-1:1:1 - blah","timestamp":"2023-07-09T21:10:55.353Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:169:-1:1:1","timestamp":"2023-07-09T21:10:55.354Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:10:55.673Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:10:55.688Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:10:55.690Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:10:56.072Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:10:56.087Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:10:56.088Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T21:13:44.149Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:14:09.366Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:14:09.403Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:14:09.405Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:14:57.124Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:14:57.146Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:14:57.148Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:15:04.093Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:15:04.113Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:15:04.115Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:175:-1:1:1 - blah","timestamp":"2023-07-09T21:15:04.119Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:175:-1:1:1","timestamp":"2023-07-09T21:15:04.122Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:15:06.482Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:15:06.498Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:15:06.499Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T21:30:49.936Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:30:50.159Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:30:50.179Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:30:50.180Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:30:50.815Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:30:50.835Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:30:50.836Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:30:51.265Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:30:51.280Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:30:51.282Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:180:-1:1:1 - blah","timestamp":"2023-07-09T21:30:51.288Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:180:-1:1:1","timestamp":"2023-07-09T21:31:56.566Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T21:32:33.647Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:32:33.793Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:32:33.815Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:32:33.816Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:32:34.440Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:32:34.457Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:32:34.458Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:32:34.926Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:32:34.942Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:32:34.944Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:184:-1:1:1 - blah","timestamp":"2023-07-09T21:32:34.948Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:184:-1:1:1","timestamp":"2023-07-09T21:32:48.535Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:34:15.481Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:34:15.499Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:34:15.500Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:34:15.645Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:34:15.662Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:34:15.663Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T21:34:15.803Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T21:34:15.819Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T21:34:15.820Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:187:-1:1:1 - blah","timestamp":"2023-07-09T21:34:15.828Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:187:-1:1:1","timestamp":"2023-07-09T21:34:29.186Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T22:43:49.506Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T22:43:51.482Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T22:43:51.562Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T22:43:51.564Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T22:43:51.998Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T22:43:52.015Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T22:43:52.017Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T22:43:52.488Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T22:43:52.504Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T22:43:52.506Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:193:-1:1:1 - blah","timestamp":"2023-07-09T22:43:52.509Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:193:-1:1:1","timestamp":"2023-07-09T22:43:58.828Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T22:44:38.412Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T22:44:38.429Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T22:44:38.431Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T22:44:39.305Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T22:44:39.322Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T22:44:39.324Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T22:44:42.002Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T22:44:42.016Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T22:44:42.018Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:196:-1:1:1 - blah","timestamp":"2023-07-09T22:44:42.026Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:196:-1:1:1","timestamp":"2023-07-09T22:44:45.564Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T22:49:27.131Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T22:49:27.232Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T22:49:27.252Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T22:49:27.254Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T22:49:32.465Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T22:49:32.481Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T22:49:32.483Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T22:49:33.189Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T22:49:33.203Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T22:49:33.205Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:200:-1:1:1 - blah","timestamp":"2023-07-09T22:49:33.209Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:200:-1:1:1","timestamp":"2023-07-09T22:49:38.095Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T22:51:14.368Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T22:51:14.385Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T22:51:14.386Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T22:51:15.124Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T22:51:15.141Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T22:51:15.142Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T22:51:16.356Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T22:51:16.369Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T22:51:16.370Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:203:-1:1:1 - blah","timestamp":"2023-07-09T22:51:16.377Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:203:-1:1:1","timestamp":"2023-07-09T22:51:20.159Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T22:52:38.037Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T22:53:04.190Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T22:53:04.232Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T22:53:04.233Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T22:53:04.929Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T22:53:04.946Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T22:53:04.948Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T22:53:05.456Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T22:53:05.473Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T22:53:05.475Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:207:-1:1:1 - blah","timestamp":"2023-07-09T22:53:05.483Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:207:-1:1:1","timestamp":"2023-07-09T22:53:08.868Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T23:03:11.155Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:04:31.967Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:04:31.987Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:04:31.990Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:04:32.780Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:04:32.798Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:04:32.800Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:04:33.219Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:04:33.236Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:04:33.238Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:211:-1:1:1 - blah","timestamp":"2023-07-09T23:04:33.245Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:211:-1:1:1","timestamp":"2023-07-09T23:04:37.101Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T23:20:50.903Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:21:02.025Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:21:02.045Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:21:02.047Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:21:02.616Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:21:02.632Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:21:02.634Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:21:03.009Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:21:03.025Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:21:03.027Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:215:-1:1:1 - blah","timestamp":"2023-07-09T23:21:03.034Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:215:-1:1:1","timestamp":"2023-07-09T23:21:07.153Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T23:22:23.783Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:22:52.008Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:22:52.030Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:22:52.033Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:22:52.593Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:22:52.611Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:22:52.613Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:22:53.012Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:22:53.029Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:22:53.031Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:219:-1:1:1 - blah","timestamp":"2023-07-09T23:22:53.036Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:219:-1:1:1","timestamp":"2023-07-09T23:23:02.417Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:23:02.432Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:23:02.537Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:23:02.539Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T23:24:36.829Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:24:50.953Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:24:50.972Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:24:50.974Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:24:51.517Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:24:51.535Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:24:51.536Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:24:51.986Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:24:52.006Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:24:52.008Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:224:-1:1:1 - blah","timestamp":"2023-07-09T23:24:52.013Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T23:25:10.742Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:25:13.385Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:25:13.406Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:25:13.408Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:25:14.889Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:25:14.906Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:25:14.908Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:25:15.211Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:25:15.227Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:25:15.229Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:228:-1:1:1 - blah","timestamp":"2023-07-09T23:25:15.236Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T23:25:48.420Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:25:58.788Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:25:58.808Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:25:58.810Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T23:26:17.210Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:26:19.218Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:26:19.244Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:26:19.246Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:26:22.919Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:26:22.935Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:26:22.937Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:26:23.431Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:26:23.446Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:26:23.448Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:234:-1:1:1 - blah","timestamp":"2023-07-09T23:26:23.453Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T23:31:54.129Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:31:57.154Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:31:57.179Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:31:57.180Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:31:57.719Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:31:57.736Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:31:57.738Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:31:58.335Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:31:58.351Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:31:58.353Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:238:-1:1:1 - blah","timestamp":"2023-07-09T23:31:58.361Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T23:32:28.842Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:32:29.270Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:32:29.292Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:32:29.294Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:32:30.052Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:32:30.069Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:32:30.071Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:32:30.492Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:32:30.508Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:32:30.510Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:242:-1:1:1 - blah","timestamp":"2023-07-09T23:32:30.515Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:242:-1:1:1","timestamp":"2023-07-09T23:32:41.696Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:33:21.364Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:33:21.383Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:33:21.384Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:33:22.387Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:33:22.408Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:33:22.409Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:33:22.735Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:33:22.752Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:33:22.753Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:245:-1:1:1 - blah","timestamp":"2023-07-09T23:33:22.762Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:245:-1:1:1","timestamp":"2023-07-09T23:33:27.018Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:33:27.028Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:33:27.052Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:33:27.054Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T23:36:16.534Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:36:16.566Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:36:16.597Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:36:16.599Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:36:18.450Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:36:18.466Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:36:18.468Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:36:18.839Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:36:18.855Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:36:18.857Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:250:-1:1:1 - blah","timestamp":"2023-07-09T23:36:18.864Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:250:-1:1:1","timestamp":"2023-07-09T23:36:23.020Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:36:23.029Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:36:23.057Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:36:23.059Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:36:42.824Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:36:42.841Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:36:42.842Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:36:43.025Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:36:43.042Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:36:43.044Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:253:-1:1:1 - blah","timestamp":"2023-07-09T23:36:43.051Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:253:-1:1:1","timestamp":"2023-07-09T23:36:48.122Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:36:48.128Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:36:48.154Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:36:48.155Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:256:-1:1:1 - blah","timestamp":"2023-07-09T23:38:38.716Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:256:-1:1:1","timestamp":"2023-07-09T23:38:44.320Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:259:-1:1:1 - blah","timestamp":"2023-07-09T23:38:44.325Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:259:-1:1:1","timestamp":"2023-07-09T23:38:45.230Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T23:42:34.094Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:43:27.752Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:43:27.774Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:43:27.777Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:43:28.208Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:43:28.228Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:43:28.229Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:43:28.603Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:43:28.618Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:43:28.620Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:264:-1:1:1 - blah","timestamp":"2023-07-09T23:43:28.624Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:264:-1:1:1","timestamp":"2023-07-09T23:43:35.064Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T23:45:18.158Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:45:19.314Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:45:19.335Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:45:19.337Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:45:19.933Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:45:19.950Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:45:19.952Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:45:20.307Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:45:20.324Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:45:20.326Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:268:-1:1:1 - blah","timestamp":"2023-07-09T23:45:20.330Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T23:50:20.034Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:50:24.320Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:50:24.341Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:50:24.343Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:50:25.425Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:50:25.442Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:50:25.444Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:50:26.070Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:50:26.094Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:50:26.096Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:272:-1:1:1 - blah","timestamp":"2023-07-09T23:50:26.105Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:272:-1:1:1","timestamp":"2023-07-09T23:50:26.107Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:50:26.693Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:50:26.709Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:50:26.711Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:50:26.879Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:50:26.895Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:50:26.896Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-09T23:52:20.543Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:52:37.210Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:52:37.229Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:52:37.231Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:52:37.534Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:52:37.550Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:52:37.552Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:52:37.691Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:52:37.715Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:52:37.716Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:278:-1:1:1 - blah","timestamp":"2023-07-09T23:52:37.720Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:278:-1:1:1","timestamp":"2023-07-09T23:52:37.722Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-09T23:52:38.005Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-09T23:52:38.022Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-09T23:52:38.023Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-10T01:04:19.864Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-10T01:04:19.887Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-10T01:04:19.889Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-10T01:04:20.416Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-10T01:04:20.432Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-10T01:04:20.434Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:281:-1:1:1 - blah","timestamp":"2023-07-10T01:04:20.439Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:281:-1:1:1","timestamp":"2023-07-10T01:04:20.442Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-10T01:04:20.993Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-10T01:04:21.010Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-10T01:04:21.011Z"}
+{"label":"SERVER - undefined","level":"info","message":"start server at port 3537 ","timestamp":"2023-07-10T01:12:41.669Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-10T01:12:54.986Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-10T01:12:55.009Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-10T01:12:55.011Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-10T01:12:55.466Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-10T01:12:55.482Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-10T01:12:55.483Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-10T01:12:55.976Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-10T01:12:55.996Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-10T01:12:55.997Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:286:-1:1:1 - blah","timestamp":"2023-07-10T01:12:56.006Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:286:-1:1:1","timestamp":"2023-07-10T01:12:56.008Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-10T01:12:56.857Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-10T01:12:56.873Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-10T01:12:56.875Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-10T01:12:57.729Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-10T01:12:57.745Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-10T01:12:57.746Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-10T01:12:58.220Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-10T01:12:58.233Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-10T01:12:58.235Z"}
+{"label":"SERVER - undefined","level":"info","message":"received message - ID:14ac75d2548a-36683-1688924012993-3:289:-1:1:1 - blah","timestamp":"2023-07-10T01:12:58.242Z"}
+{"label":"SERVER - undefined","level":"info","message":"acked - ID:14ac75d2548a-36683-1688924012993-3:289:-1:1:1","timestamp":"2023-07-10T01:12:58.243Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-10T01:12:58.421Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-10T01:12:58.436Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-10T01:12:58.437Z"}
+{"label":"SERVER - undefined","level":"info","message":"hit root","timestamp":"2023-07-10T01:12:58.591Z"}
+{"label":"SERVER - undefined","level":"info","message":"connected","timestamp":"2023-07-10T01:12:58.607Z"}
+{"label":"SERVER - undefined","level":"info","message":"subscribed to topic","timestamp":"2023-07-10T01:12:58.608Z"}

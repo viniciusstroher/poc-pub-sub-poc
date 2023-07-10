@@ -88,6 +88,7 @@ services:
       - SPLUNK_PASSWORD=changeme
     ports:
       - 18000:8000
+      - 8088:8088
     healthcheck:
       test: ['CMD', 'curl', '-f', 'http://localhost:8000']
       interval: 5s
@@ -114,6 +115,7 @@ services:
       - REDIS_HOST=redisservice
       - REDIS_PORT=6379
       - GROUP_ID=A
+      - SPLUNK=http://splunk:8088/services/collector
     depends_on:
       otel-collector:
         condition: service_started
@@ -138,6 +140,7 @@ services:
       - REDIS_HOST=redisservice
       - REDIS_PORT=6379
       - GROUP_ID=A
+      - SPLUNK=http://splunk:8088/services/collector
     depends_on:
       otel-collector:
         condition: service_started
@@ -156,3 +159,9 @@ services:
 # # https://github.com/open-telemetry/opentelemetry-erlang/blob/main/config/otel-collector-config.yaml
 # https://github.com/open-telemetry/opentelemetry-js/blob/main/experimental/examples/logs/index.ts
 # https://github.com/adrianhall/winston-splunk-httplogger
+
+# https://github.com/algun/jaeger-nodejs-example
+# https://www.aspecto.io/blog/jaeger-tracing-the-ultimate-guide/
+# https://betterprogramming.pub/trace-context-propagation-with-opentelemetry-b8816f2f065e
+# https://opentelemetry.io/docs/instrumentation/js/propagation/
+# https://opentelemetry.io/docs/instrumentation/js/context/

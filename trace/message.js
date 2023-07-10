@@ -14,7 +14,7 @@ const subscribeHeaders = {
 }
 
 
-const listenMessage = (logger) => {
+const listenMessage = (logger, restoreTrace) => {
   stompit.connect(connectOptions, (error, client) => {
     client.subscribe(subscribeHeaders, async (error, message) => {
       const messageId = message.headers['message-id']
@@ -34,13 +34,25 @@ const listenMessage = (logger) => {
 
           client.ack(message, message.headers)
 
+          
+          let span
+
+          if(message.headers['span-id']) {
+            span = JSON.parse(message.headers['span-id'])
+
+            restoreTrace('app3.mqtt',span)
+          }
+
+          console.log('message', message)
+          
           logger.info(`acked - ${messageId}`)
       })
     })
   })
 }
 
-const sendMessage = (logger, msg) => {
+const sendMessage = (logger, msg, spanId) => {
+  
   stompit.connect(connectOptions, (error, client) => {
 
     if (error) {
@@ -58,6 +70,12 @@ const sendMessage = (logger, msg) => {
         // 'destination': '/queue/Consumer.A.VirtualTopic.Orders',
         'content-type': 'text/plain',
         // '_AMQ_GROUP_ID': group
+    }
+
+    if(spanId) {
+      sendHeaders['span-id'] = JSON.stringify(spanId)
+
+      console.log('span-id', sendHeaders)
     }
 
     const frame = client.send(sendHeaders)

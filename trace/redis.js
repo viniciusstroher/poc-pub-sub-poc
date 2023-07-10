@@ -1,8 +1,15 @@
 const redis = require('redis')
 const REDIS_DB1 = 1
-const redisClient = redis.createClient({
-  url: `redis://${process.env.REDIS_HOST || 'localhost'}:${process.env.REDIS_PORT || '6379'}`
-})
+const redisConnect = {
+  url: `redis://${process.env.REDIS_HOST || '127.0.0.1'}:${process.env.REDIS_PORT || '6379'}`
+}
+
+const createClient = () => {
+  const conn = redis.createClient(redisConnect)
+  return conn
+}
+
+const redisClient = createClient()
 
 const setRedis = async (key, value) => {
   await redisClient.connect()
